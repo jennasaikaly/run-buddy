@@ -6,59 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Run Buddy</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+</head>
 <body>
-    <header> 
-         <h1>
-             <a href="/">Run Buddy</a>
-        </h1>  
-         <nav>          
-             <ul>
-                 <li>
-                     <a href="#what-we-do">What We Do</a>
-                 </li>
-                 <li>
-                     <a href="#what-you-do">What You Do</a>
-                </li>
-                <li>
-                    <a href="#your-trainers">Your Trainers</a>
-                </li>
-                <li>
-                    <a href="#reach-out">Reach Out</a>
-                </li>
-             </ul>
-         </nav>  
-    </header>
+        <header> 
+            <h1>
+                <a href="/">Run Buddy</a>
+            </h1>  
+            <nav>          
+                <ul>
+                    <li>
+                        <a href="#what-we-do">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#what-you-do">What You Do</a>
+                    </li>
+                    <li>
+                        <a href="#your-trainers">Your Trainers</a>
+                    </li>
+                    <li>
+                        <a href="#reach-out">Reach Out</a>
+                    </li>
+                </ul>
+            </nav>  
+        </header>
 
-  
     <section class="hero">
         <div class="hero-form">
-<h3>Get Started Today!</h3>
-<p>Fill out this form and one of our trainers will schedule a consult.</p>
-<form>
-    <label for="name">Enter full name:</label>
-    <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
-    <label for="email">Enter email address:</label>
-    <input type="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
-    <label for="phone">Enter a telephone number:</label>
-    <input type="tel" placeholder="Telephone Number" name="phone" id="phone" class="form-input"/>
-    <p>Have you worked out with a trainer before?</p>
-    <input type="radio" name="trainer-confirm" id="trainer-yes"/>
-    <label for="trainer-yes">Yes</label>
-    <input type="radio" name="trainer-confirm" id="trainer-no"/>
-    <label for ="trainer-no">No</label>
-</p> 
-<p>
-        <label for="checkbox" >I acknowledge that I am at least 18 years of age
-        </label>
-        <input type="checkbox" name="age-confirm" id="checkbox"/> 
-    </p>
-    <button type="submit">
-        Get running!
-    </button>
-</form>
-</div>    
-</section>
+            <h3>Get Started Today!</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
+                <label for="email">Enter email address:</label>
+                <input type="text" placeholder="Email Address" name="email" id="email" class="form-input"/>
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Telephone Number" name="phone" id="phone" class="form-input"/>
+                <p>Have you worked out with a trainer before?</p>
+                <input type="radio" name="trainer-confirm" id="trainer-yes"/>
+                <label for="trainer-yes">Yes</label>
+                <input type="radio" name="trainer-confirm" id="trainer-no"/>
+                <label for ="trainer-no">No</label>
+                </p> 
+                <p>
+                <label for="checkbox" >I acknowledge that I am at least 18 years of age
+                </label>
+                <input type="checkbox" name="age-confirm" id="checkbox"/> 
+                </p>
+                <button type="submit">Get running!
+                </button>
+            </form>
+        </div>    
+    </section>
 
     <section id="what-we-do" class="intro">
         <h2 class="section-title primary-border">What We Do</h2>
@@ -94,12 +92,40 @@
         </div>
     </section>
 
-    <section>
-        <h2>Your Trainers</h2>
+    <section id="your-trainers" class="trainers">
+        <h2 class="section-title primary-border">Meet the Trainers</h2>
+        
+        <article class="trainer">
+            <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
+            <div class="trainer-bio text-left">
+                <h3>Arron Stephens</h3>
+                <h4>Speed/Strength</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora, eius nisi velit sequi nobis eum fugit soluta cum totam dolor labore ducimus suscipit molestias natus quidem ex incidunt consequatur?
+                </p>
+            </div>
+        </article>
+
+        <article class="trainer">
+            <div class="trainer-bio text-right">
+                <h3>Joanna Gill</h3>
+                <h4>Endurance</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique voluptas quis libero et pariatur incidunt soluta sit ab praesentium ullam, itaque esse, laborum reprehenderit ea! Corporis ipsa maiores fugit soluta.</p>
+            </div>
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout"/>
+        </article>
+
+        <article class="trainer">
+            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights"/>
+            <div class="trainer-bio text-left">
+                <h3>Harry "The Headband" Smith</h3>
+                <h4>Strength</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptates blanditiis ipsa quaerat illum modi ratione magnam facilis, aspernatur sequi non itaque reiciendis tenetur assumenda eos sint libero sunt ex!</p>
+            </div>
+        </article>
     </section>
-  
+
     <section>
-        <h2>Reach Out</h2>
+        <h2 class="section-title secondary-border">Reach Out</h2>
     </section>
 
     <footer>
