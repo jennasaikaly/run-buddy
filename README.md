@@ -12,3 +12,5 @@ https://jennasaikaly.github.io/run-buddy
 
 ## Contribution
 Made with ❤️ by Jenna.
+
+# Run Buddy Inc.
