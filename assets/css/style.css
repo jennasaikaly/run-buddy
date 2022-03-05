@@ -17,7 +17,7 @@ body {
 
   header {
     padding: 20px 35px;
-    background-color: var(--tertiary-color);;
+    background-color: var(--tertiary-color);
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -64,7 +64,7 @@ body {
   }
   header nav ul li a:hover {
     background: #fce138;
-    color: #024e76;
+    color: var(--secondary-color);
     border-radius: 15px;
     text-shadow: none;
   }
@@ -92,7 +92,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
   }
-
+ 
   .hero-cta h2 {
     color: var(--primary-color);
     font-style: italic;
@@ -102,8 +102,8 @@ body {
   }
   .hero-form {
     background-color: rgba(252, 225, 56, 0.8);
-    border: solid 3px #024e76;
-    color: #024e76;
+    border: solid 3px var(--secondary-color);
+    color: var(--secondary-color);
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
     padding: 20px;
@@ -123,10 +123,10 @@ body {
 }
 .form-input {
   font-size: 16px;
-  border: 1px solid #024e76;
+  border: 1px solid var(--secondary-color);
   display: block;
   padding: 7px 15px;
-  color: #024e76;
+  color: var(--secondary-color);
   width: 100%;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -143,14 +143,14 @@ body {
 
   .hero-form button {
     color: var(--primary-color);
-    background-color: #024e76;
+    background-color: var(--secondary-color);
     border: none;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
   }
   .hero-form button:hover {
-    background-color: #39a6b2;  
+    background-color: var(--tertiary-color);  
   }
 
   .checkbox-wrapper input, .radio-wrapper input {
@@ -168,7 +168,7 @@ body {
     height: 20px;
     width: 20px;
     background: rgba(255, 255, 255, 0.75);  
-    border: 1px solid #024e76;  
+    border: 1px solid var(--secondary-color);  
     position: absolute;
     top: -4px;
     left: -30px;
@@ -182,19 +182,19 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background: #024e76;
+    background: var(--secondary-color);
     position: absolute;
     left: -29px;
     top: -3px;
-    background-image: radial-gradient(circle, #39a6b2, #024e76);
+    background-image: radial-gradient(circle, var(--tertiary-color), var(--secondary-color));
   }
   
   .checkbox-wrapper label::after {
     content: "";
     height: 6px;
     width: 14px;
-    border-left: 2px solid #024e76;
-    border-bottom: 2px solid #024e76;
+    border-left: 2px solid var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
     position: absolute;
     left: -26px;
     top: 1px;
@@ -212,7 +212,7 @@ body {
 }
     .section-title{
     font-size: 48px;
-    color: #024e76;
+    color: var(--secondary-color);
     border-bottom: 3px solid;
     padding-bottom: 20px;
     text-align: center;
@@ -223,12 +223,12 @@ body {
       border-color: var(--primary-color);
   }
   .secondary-border {
-    border-color: #39a6b2;
+    border-color: var(--tertiary-color);
   }
 
   .intro p {
     line-height: 1.7;
-    color: #39a6b2;
+    color: var(--tertiary-color);
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
@@ -250,10 +250,10 @@ body {
       justify-content: space-between;
     }
     .step:not(:last-child) {
-      border-bottom: 1px solid #39a6b2;
+      border-bottom: 1px solid var(--tertiary-color);
     }
     .step h3 {
-    color: #024e76;
+    color: var(--secondary-color);
     font-size: 46px;
     flex: 1 30%;
     }
@@ -273,13 +273,13 @@ body {
     flex:12;
   }
   .step-text p {
-    color: #39a6b2;
+    color: var(--tertiary-color);
     font-size: 18px;
   }
   .step-text h4 {
     font-size: 26px;
     line-height: 1.5;
-    color: #024e76;
+    color: var(--secondary-color);
   }
 
   .trainers {
@@ -291,7 +291,7 @@ body {
   }
   .trainer {
     margin: 20px;
-    background: #024e76;
+    background: var(--secondary-color);
     color: var(--primary-color);
     flex: 1;
       }
@@ -329,7 +329,7 @@ font-size: 28px;
   .flex-row {display:flex;}
 
   .contact {
-    background-color: #024e76;
+    background-color: var(--secondary-color);
     }
 .contact h2 {
   color: var(--primary-color);
@@ -362,11 +362,11 @@ font-size: 28px;
   }
 
   .contact-form input, .contact-form textarea {
-    border: 1px solid #024e76;
+    border: 1px solid var(--secondary-color);
     display: block;
     padding:7px 15px;
     font-size: 16px;
-    color: #024e76;
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -381,7 +381,7 @@ font-size: 28px;
     width: 100%;
     border: none;
     background:var(--primary-color);
-    color: #024e76;
+    color: var(--secondary-color);
     text-align: center;
     padding: 15px 0;
     font-size: 16px;
@@ -389,7 +389,7 @@ font-size: 28px;
   }
   .contact-form button:hover {
     color: var(--primary-color);
-    background: #39a6b2;
+    background: var(--tertiary-color);
   }
 
   footer {
@@ -402,7 +402,7 @@ font-size: 28px;
   }
 
   footer h2 {
-      color: #024e76;
+      color: var(--secondary-color);
       font-size: 30px;
       margin: 0;
   }
@@ -413,7 +413,7 @@ font-size: 28px;
   }
 
   footer a {
-      color: #024e76;
+      color: var(--secondary-color);
   }
 
 
