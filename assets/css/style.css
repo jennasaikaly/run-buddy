@@ -55,8 +55,9 @@ body {
     background-position: center;
     background-size: cover;
     display:flex;
+    flex-flow: row wrap;
     align-items: flex-start;
-      }
+          }
 
   .hero-cta {
     text-align: right;
@@ -333,10 +334,31 @@ font-size: 28px;
     text-align: center;
     width: 100%;
   }
+
+  .hero-cta, .hero-form {
+    width: 100%;
+  }
+
+  .hero-cta {
+    text-align: center;
+  }
+
+  .section-title {
+    width:80%;
+  }
+
+  .trainer {
+    flex: 0 70%;
+      }
+
+      .contact-info iframe {
+        flex: 1 100%;
+      }
   }
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
+  
   }
 
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
