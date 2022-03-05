@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fce138;
+  --secondary-color: #024e76;
+  --tertiary-color: #39a6b2;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -5,13 +11,13 @@
 }
 
 body {
-       color: #39a6b2;
+       color: var(--tertiary-color);
     font-family: Helvetica, Arial, sans-serif;
   }
 
   header {
     padding: 20px 35px;
-    background-color: #39a6b2;
+    background-color: var(--tertiary-color);;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -27,7 +33,7 @@ body {
   }
 
   header h1 {
-    color: #fce138;
+    color: var(--primary-color);
     font-weight: bold;
     font-size: 36px;
     margin: 0;
@@ -35,7 +41,7 @@ body {
   }
   
   header a {
-    color: #fce138;
+    color: var(--primary-color);
     text-decoration: none;
   }
 
@@ -88,7 +94,7 @@ body {
   }
 
   .hero-cta h2 {
-    color: #fce138;
+    color: var(--primary-color);
     font-style: italic;
     font-size: 55px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -136,7 +142,7 @@ body {
   }
 
   .hero-form button {
-    color: #fce138;
+    color: var(--primary-color);
     background-color: #024e76;
     border: none;
     padding: 10px 20px;
@@ -214,7 +220,7 @@ body {
     width: 50%;
   }
     .primary-border {
-      border-color: #fce138;
+      border-color: var(--primary-color);
   }
   .secondary-border {
     border-color: #39a6b2;
@@ -231,7 +237,7 @@ body {
 
   .steps {
     text-align: center;
-    background: #fce138;
+    background: var(--primary-color);
     }
 
     .step {
@@ -286,7 +292,7 @@ body {
   .trainer {
     margin: 20px;
     background: #024e76;
-    color: #fce138;
+    color: var(--primary-color);
     flex: 1;
       }
   .trainer img {
@@ -326,7 +332,7 @@ font-size: 28px;
     background-color: #024e76;
     }
 .contact h2 {
-  color: #fce138;
+  color: var(--primary-color);
 }
 
 .contact-info {
@@ -342,7 +348,7 @@ font-size: 28px;
   }
 
   .contact-info h3{
-    color: #fce138;
+    color: var(--primary-color);
     font-size: 32px;
   }
   .contact-info p, .contact-info address {
@@ -352,7 +358,7 @@ font-size: 28px;
     font-size: normal;
   }
   .contact-info a {
-    color:#fce138;
+    color:var(--primary-color);
   }
 
   .contact-form input, .contact-form textarea {
@@ -374,7 +380,7 @@ font-size: 28px;
   .contact-form button {
     width: 100%;
     border: none;
-    background: #fce138;
+    background:var(--primary-color);
     color: #024e76;
     text-align: center;
     padding: 15px 0;
@@ -382,12 +388,12 @@ font-size: 28px;
     border-radius: 10px;
   }
   .contact-form button:hover {
-    color: #fce138;
+    color: var(--primary-color);
     background: #39a6b2;
   }
 
   footer {
-      background: #fce138;
+      background: var(--primary-color);
       width: 100%;
       padding: 40px 35px;
       display:flex;
